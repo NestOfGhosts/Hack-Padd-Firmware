@@ -38,7 +38,6 @@
     };
 
     &layoutless {
-    kscan = <&scanner>; 
     transform = <&morpheus>;
 };
 };
