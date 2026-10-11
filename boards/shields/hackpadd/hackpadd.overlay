@@ -30,4 +30,15 @@
             RC(3,0) RC(3,1) RC(3,2)
         >;
     };
+
+    {
+    layoutless: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+    };
+
+    &layoutless {
+    kscan = <&scanner>; 
+    transform = <&morpheus>;
+};
 };
