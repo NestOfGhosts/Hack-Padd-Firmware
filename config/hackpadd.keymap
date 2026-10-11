@@ -1,0 +1,31 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+        0 {
+            bindings = <
+                &kp LA(TAB) &kp LG(D) &kp LC(LS(ESC))
+                &kp C_NEXT &kp PLAY_PAUSE &kp C_PREV
+                &kp LC(c) &kp LC(x) &kp LC(v)
+                &kp LC(z) &kp LC(y) &mo 1
+            >;
+        };
+        1 {
+            bindings = <
+                &kp 13 &kp 14 &kp 15
+                &kp 16 &kp 17 &kp 18
+                &kp 19 &kp 20 &kp 21
+                &mo 2 &trans &trans
+            >;
+        };
+        2 {
+            bindings = <
+                &bootloader &trans &trans
+                &trans &trans &trans 
+                &soft_off &trans &trans
+                &trans &trans &trans 
+        };
+    };
+};
