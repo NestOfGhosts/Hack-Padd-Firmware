@@ -31,7 +31,7 @@
         >;
     };
 
-    {
+    
     layoutless: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
@@ -40,5 +40,4 @@
     &layoutless {
     transform = <&morpheus>;
     };
-};
 };
