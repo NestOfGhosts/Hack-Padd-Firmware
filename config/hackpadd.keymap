@@ -26,6 +26,7 @@
                 &trans &trans &trans 
                 &soft_off &trans &trans
                 &trans &trans &trans 
+            >;
         };
     };
 };
